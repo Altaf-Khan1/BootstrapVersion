@@ -1,4 +1,4 @@
-Nav{
+/* Nav{
   background-color: lightblue;
   font-family: cursive;
   font-size: x-large;
@@ -8,16 +8,16 @@ Nav{
 Nav.Link {
   color: white;
 
-}
+} */
 
-#caption {
+/* #caption {
   color: black;
   margin-left: 80%;
   font-weight: bolder;
   font-size: large;
-}
+} */
 
-.thirdSection {
+/* .thirdSection {
   margin: 2%;
   width: 100%;
 }
@@ -33,5 +33,72 @@ Nav.Link {
   font-size: large;
   font-variant:small-caps;
   padding-top: 10px;
+} */
+
+/* 
+.services1{
+  width: 50%;
 }
+
+.services2 {
+  width:50%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.Services {
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .Cprojects {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.one, .two, .three, .four{
+  display: inline-block;
+}
+
+.one{
+  border: 1px solid black;
+  border-radius: 10%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.two{
+  border: 1px solid black;
+  border-radius: 10%;
+  margin-left: 60%;
+  margin-top: -10%;
+}
+
+.three{
+  border: 1px solid black;
+  border-radius: 10%;
+  margin-left: 10%;
+  margin-top: -12%;
+}
+
+.four{
+  border: 1px solid black;
+  border-radius: 10%;
+  margin-left: 60%;
+  margin-top: -10%;
+}
+
+.baton {
+  margin-top: 3%;
+  margin-left: 50%;
+  width: 200px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+
+} */
+
+
+
 

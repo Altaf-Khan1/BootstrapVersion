@@ -1,0 +1,12 @@
+Nav{
+    background-color: lightblue;
+    font-family: cursive;
+    font-size: x-large;
+    font-weight:bold;
+  }
+  
+  Nav.Link {
+    color: white;
+  
+  }
+  

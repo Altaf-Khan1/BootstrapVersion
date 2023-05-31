@@ -1,0 +1,51 @@
+.Services {
+    font-family: sans-serif;
+    text-align: left;
+  }
+
+/* .SectionScroll {
+    display: flex;
+    justify-content: space-between;
+}
+.Scrolli {
+    width: 50%;
+    float: right;
+    display: flex;
+} */
+ img {
+    width: 150px;
+    height: 5rem;
+    padding: 0 15px;
+    object-fit: cover;
+  }
+  
+  img:last-of-type {
+    padding-left: 0;
+  } */
+  
+  .inner {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    height: 5rem;
+  }
+  
+  .wrapper {
+    position: absolute;
+    display: flex;
+  }
+  
+  section {
+    display: flex;
+    animation: swipe var(--speed) linear infinite backwards;
+  }
+  
+  @keyframes swipe {
+    0% {
+      transform: translate(0);
+    }
+  
+    100% {
+      transform: translate(-100%);
+    }
+  }
