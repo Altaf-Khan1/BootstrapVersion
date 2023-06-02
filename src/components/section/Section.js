@@ -19,24 +19,22 @@ const images = [
 function Section() {
   return (
     <div className="SectionScroll">
-      <div className="Services">
-        <div className="services1">
-          <Row>
-            <Col>
-              <h2 className="services">Services</h2>
-              <p className="services1">
-                What Do you have in Mind? <br /> Get in Touch and we Will turn
-                your dream project into a reality!!! <br /> <br /> <br /> <br />{" "}
-                <Button variant="dark">Contact Us</Button>
-              </p>
-            </Col>
-          </Row>
-        </div>
-        <div className="scrolli">
-          <Banner images={images} speed={5000} />
-        </div>
+      <div className="services1">
+        <Row>
+          <Col>
+            <h2 className="services">Services</h2>
+            <p className="services1">
+              What Do you have in Mind? <br /> Get in Touch and we Will turn
+              your dream project into a reality!!! <br /> <br /> <br /> <br />{" "}
+              <Button variant="dark">Contact Us</Button>
+            </p>
+          </Col>
+        </Row>
       </div>
+      <div className="scrolli">
+        <Banner images={images} speed={5000} />
       </div>
+    </div>
   );
 }
 

@@ -8,6 +8,8 @@ import SectionS from "./components/SectionS";
 import SectionT from "./components/SectionT";
 import SectionF from "./components/SectionF";
 import Section from "./components/section/Section";
+import SectionFi from "./components/SectionFi";
+import SectionSi from "./components/SectionSi";
 
 
 
@@ -19,6 +21,8 @@ function App() {
       <SectionT />
       <Section />
       <SectionF />
+      <SectionFi />
+      <SectionSi />
     </header>
   );
 }

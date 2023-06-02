@@ -1,0 +1,33 @@
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 70%;
+    height: 250px;
+}
+
+
+.card {
+    background-color:beige;
+    display: block;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-title, .card-text {
+    text-align: center;
+}
+
+.card-text {
+    font-style: oblique;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 7%;
+    display: grid;
+    border: transparent;
+    place-content: center;
+}

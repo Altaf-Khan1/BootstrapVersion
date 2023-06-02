@@ -1,13 +1,12 @@
 
-
-.image {
+.banner {
   max-width: 150px;
   height: 5rem;
   padding: 0 15px;
   object-fit: cover;
 }
 
-.image:last-of-type {
+.banner:last-of-type {
   padding-left: 0;
 }
 
