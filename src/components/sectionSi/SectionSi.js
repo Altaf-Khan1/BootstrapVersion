@@ -5,8 +5,7 @@ function SectionSi() {
   return (
     <div className="Six">
       <h2 className="Six-text">Why Choose Us</h2>
-      <img src="./Images/Screenshot.png" class="img-fluid" alt="..."></img>
-      <img src="./Images/Screenshot1.png" class="img-fluid" alt="..."></img>
+      <img className="Six-img" src="https://propila.com/wp-content/uploads/2020/10/Whychoose-propila-it-services.png" alt="..."></img>
     </div>
   );
 }
